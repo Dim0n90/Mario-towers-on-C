@@ -6,7 +6,7 @@ int main(void)
     int h;
     do
     {
-    h = get_int ("Vusota bashni: "); 
+    h = get_int ("Vusota bas: "); 
     }
     while (h < 1 || h > 8);
     for (int x = 0; x < h; x++)
